@@ -1,6 +1,6 @@
 import React,{useState,useEffect} from 'react'
 import styled from 'styled-components'
-import Logo from "../assets/logo.svg";
+import Logo from "../assets/logo1.svg";
 
 const Contacts = ({contacts,currentUser,changeChat}) => {
 
@@ -29,7 +29,7 @@ const Contacts = ({contacts,currentUser,changeChat}) => {
             <Container>
                 <div className="brand">
                     <img src={Logo} alt="logo" />
-                    <h3>snappy</h3>
+                    <h3>Swift</h3>
                 </div>
                 <div className="contacts">
                     {
